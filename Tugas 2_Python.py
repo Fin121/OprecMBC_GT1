@@ -52,9 +52,9 @@ else:
  # python program n * n stars and fences with integer counts
     
 t = int(input("masukkan nilai n:"))
-for i in range (1,t):
-    for j in range (1,t):
-        if i==0 or i==(t-1) or j==0 or j==(t-1):
+for i in range (0,t):
+    for j in range (0,t):
+        if (i==0 or i==(t-1) or j==0 or j==(t-1)):
             print("*",end=" ")
         else:
             print("#",end=" ")
