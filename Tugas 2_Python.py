@@ -46,3 +46,16 @@ elif (hari=='jumat'):
     print("seragam hari jumat adalah batik")
 else:
     print("anda tidak memilih hari")
+
+    
+ # Assigment MBC Meet 3 NO 4
+ # python program n * n stars and fences with integer counts
+    
+t = int(input("masukkan nilai n:"))
+for i in range (1,t):
+    for j in range (1,t):
+        if i==0 or i==(t-1) or j==0 or j==(t-1):
+            print("*",end=" ")
+        else:
+            print("#",end=" ")
+    print ()
