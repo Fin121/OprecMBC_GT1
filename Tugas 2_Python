@@ -1,0 +1,7 @@
+# Assignmet MBC Meet 3 No 1
+# Program for printing odd number from 1 to n
+
+n = int(input('Please input the n value : '))
+for i in range (n):
+    if(i%2 != 0):
+        print(i)
