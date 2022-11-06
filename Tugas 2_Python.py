@@ -1,21 +1,3 @@
-print("==Seragam Mahasiswa Telkom University==\n")
-hari = str(input("Masukkan Nama Hari (tanpa kapital): \n"))
-
-if (hari=='senin'):
-    print("seragam hari senin adalah merah")
-elif (hari=='selasa'):
-    print("seragam hari selasa adalah putih")
-elif (hari=='rabu'):
-    print("seragam hari rabu adalah putih")
-elif (hari=='kamis'):
-    print("seragam hari kamis adalah bebas sopan")
-elif (hari=='jumat'):
-    print("seragam hari jumat adalah batik")
-elif (hari=='sabtu'):
-    print("seragam hari sabtu adalah bebas sopan")
-else:
-    print("anda tidak memilih hari")
-
 # Assignmet MBC Meet 3 No 1
 # Program for printing odd number from 1 to n
 
@@ -46,3 +28,21 @@ else:
         print("Congratulation you get","5%","discount")
     else:
         print("Thank You!")
+        
+        
+# Assignment MBC Meet 3 No 3
+# Program to identify the uniform in a particular day
+
+print("==Seragam Mahasiswa Telkom University==\n")
+hari = str(input("Masukkan Nama Hari (tanpa kapital): \n"))
+
+if (hari=='senin'):
+    print("seragam hari senin adalah merah")
+elif (hari=='selasa' or hari=='rabu'):
+    print("seragam hari selasa adalah putih")
+elif (hari=='kamis' or hari=='sabtu'):
+    print("seragam hari kamis adalah bebas sopan")
+elif (hari=='jumat'):
+    print("seragam hari jumat adalah batik")
+else:
+    print("anda tidak memilih hari")
