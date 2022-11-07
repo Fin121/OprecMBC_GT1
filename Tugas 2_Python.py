@@ -11,7 +11,7 @@ for i in range (n):
 # Cashier Program
 
 a = int(input(" Please input your total price :"))
-b = input("Are you a member? (y/n")
+b = input("Are you a member? (y/n) :")
 
 if(500000<a<1000000):
     if(b == "y"):
